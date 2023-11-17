@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Roboto:wght@500&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.bg-primary-dark {
+    background-color: #161920 !important;
+}
+
+.bg-header-dark {
+    background-color: black !important;
+}
+
+.bg-suggestions {
+    background-color: #3D4450 !important;
+}
+
+.bg-games {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    -webkit-mask: linear-gradient(180deg, rgb(0, 0, 0) 95%, rgba(0, 0, 0, 0) 92%),radial-gradient(15.77% 44.22% at 50% 104.95%, rgba(66, 66, 66, 0) 0%, #333333 100%),radial-gradient(30.95% 86.8% at 0% 13.2%, rgba(66, 66, 66, 0.33) 0%, #333333 100%),radial-gradient(51.31% 143.89% at 49.99% 24.75%, #000000 0%, #000000 52.6%, rgba(0, 0, 0, 0.18) 83.33%, rgba(0, 0, 0, 0) 95.31%),radial-gradient(51.31% 143.89% at 49.99% 24.75%, #000000 0%, #000000 52.6%, rgba(0, 0, 0, 0.18) 83.33%, rgba(0, 0, 0, 0) 95.31%),linear-gradient(180deg, #000000 90%, rgba(0, 0, 0, 0) 100%);
+    /* -webkit-mask: linear-gradient(180deg, rgb(0, 0, 0) 58%, rgba(0, 0, 0, 0) 95%),radial-gradient(15.77% 44.22% at 50% 104.95%, rgba(66, 66, 66, 0) 0%, #333333 100%),radial-gradient(30.95% 86.8% at 30.69% 13.2%, rgba(66, 66, 66, 0.33) 0%, #333333 100%),radial-gradient(51.31% 143.89% at 49.99% 24.75%, #000000 0%, #000000 52.6%, rgba(0, 0, 0, 0.18) 83.33%, rgba(0, 0, 0, 0) 95.31%),radial-gradient(51.31% 143.89% at 49.99% 24.75%, #000000 0%, #000000 52.6%, rgba(0, 0, 0, 0.18) 83.33%, rgba(0, 0, 0, 0) 95.31%),linear-gradient(180deg, #000000 90%, rgba(0, 0, 0, 0) 100%); */
+    -webkit-mask-composite: source-in;
+    transition: background-image .1s ease-out;
+}
+
+
+.suggestion-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+.suggestion-item:hover {
+    background-color: white;
+    color: black;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.suggestion-game-image{
+    width: 200px;
+    height: 100px;
+    width: 100%;
+
+}
+
+#background-game, #grafico {
+    display: none;
+}
+
+.loader {
+    border: 12px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 12px solid #444444;
+    margin-top: 5rem;
+    width: 200px;
+    height: 200px;
+    animation: spin 1s linear infinite;
+    display: none;
+}
+
+.chart-container {
+    position: relative;
+    margin: auto;
+    height: 80vh;
+    width: 80vw;
+
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+@media (max-width: 1350px) {
+    #games-suggestion, #game-content{
+        width: 75% !important;
+    }
+}
+
+@media (max-width: 870px) {
+    #games-suggestion, #game-content{
+        width: 90% !important;
+    }
+}
