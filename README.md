@@ -16,7 +16,7 @@ Front end para consumo de uma api sobre conquistas da steam.
 
 1. Baixe ou clone este repositório com:
   ```
-    git pull https://github.com/ja1za1/api-conquistas-steam-front
+    git clone https://github.com/ja1za1/api-conquistas-steam-front
   ```
 2. Para hospedar o site localmente, abra a pasta raiz do projeto no VSCode, selecione o arquivo index.html e no canto inferior direito clique em Go Live.
 
