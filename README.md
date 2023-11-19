@@ -1,6 +1,11 @@
 # api-conquistas-steam-front
 Front end para consumo de uma api sobre conquistas da steam.
 
+## Veja também
+
+- [Back End da aplicação](https://github.com/ja1za1/api-conquistas-steam-back)
+- [Site de apresentação](https://ja1za1.github.io/api-conquistas-steam-apresentacao)
+
 ## Requerimentos
 
 - Hospedar este site localmente.
@@ -17,7 +22,4 @@ Front end para consumo de uma api sobre conquistas da steam.
 
 OBS.: A hospedagem do site localmente não precisa ser necessariamente através do VSCode.
 
-## Veja também
 
-- [Back End da aplicação](https://github.com/ja1za1/api-conquistas-steam-back)
-- [Site de apresentação](https://ja1za1.github.io/api-conquistas-steam-apresentacao)
